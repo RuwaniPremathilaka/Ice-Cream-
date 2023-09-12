@@ -1,0 +1,312 @@
+body {
+  font-family: Arial,
+    Helvetica,
+    sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 38px;
+  background: #800f2f;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.button_1index {
+  height: 38px;
+  background: #800f2f;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  width: 20%;
+}
+
+.dark {
+  padding: 15px;
+  background: #a4133c;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Header */
+
+header {
+  background: #c9184a;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #ff8fa3
+    3px
+    solid;
+}
+
+header
+  a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header
+  li {
+  float: left;
+  display: inline;
+  padding: 0
+    20px
+    0px
+    20px;
+}
+
+header
+  #branding {
+  float: left;
+}
+
+header
+  #branding
+  h1 {
+  margin: 0;
+}
+
+header
+  nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header
+  .highlight,
+header
+  .current
+  a {
+  color: #ffccd5;
+  font-weight: bold;
+}
+
+header
+  a:hover {
+  color: #cccccc;
+  /* font-weight: bold; */
+}
+
+/* #showcase {
+  min-height: 400px;
+  background: url(../img/heroimg2.jpg)
+    no-repeat
+    0 -400px;
+  text-align: center;
+  color: #fff;
+} */
+
+#showcase {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/icehero1.jpg);
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase
+  h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase
+  p {
+  font-size: 20px;
+}
+
+#newletter {
+  padding: 15px;
+  color: #fff;
+  background: #a4133c;
+  /* margin: auto; */
+  /* width: 50%; */
+}
+
+#newletter
+  h1 {
+  float: left;
+}
+
+#newletter
+  form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newletter
+  input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* Boxes */
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes
+  .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/* sidebar */
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar
+  .quote
+  input,
+aside#sidebar
+  .quote
+  textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+/* sidebar index */
+
+#sidebarin {
+  width: 500px;
+  margin: 0
+    auto;
+}
+
+#sidebarin
+  .quote
+  input,
+#sidebarin
+  .quote
+  textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+.darkin {
+  padding: 15px;
+  background: #a4133c;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+.help {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.helpfill {
+  text-align: center;
+  font-size: 15px;
+}
+
+.details {
+  padding: 10px
+    0
+    10px
+    0;
+}
+
+/* main col */
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/* Sevices */
+
+ul#services
+  li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc
+    solid
+    1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+footer {
+  text-align: center;
+  background: #c9184a;
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  header
+    #branding,
+  header
+    nav,
+  header
+    nav
+    li,
+  #newletter
+    h1,
+  #newletter
+    form,
+  #boxes
+    .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header {
+    padding-bottom: 20px;
+  }
+  #showcase
+    h1 {
+    margin-top: 40px;
+  }
+  #newletter
+    button {
+    display: block;
+    width: 100%;
+  }
+  #newletter
+    form
+    input[type="email"] {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
